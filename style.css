@@ -588,3 +588,30 @@ font-size:12px
   }
 
 }
+/* FINAL MOBILE SECTION FIX */
+
+@media (max-width: 900px) {
+
+  #facilities,
+  #admission,
+  #gallery,
+  #contact {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    grid-column: 1 / -1 !important;
+    float: none !important;
+    clear: both !important;
+  }
+
+  #facilities > .container,
+  #admission > .container,
+  #gallery > .container,
+  #contact > .container {
+    width: 92% !important;
+    max-width: 1120px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+}
