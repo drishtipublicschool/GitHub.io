@@ -528,7 +528,15 @@ height:150px
 .leader strong{
 font-size:15px
 }
+.leader p{
+  margin:8px 0 0;
+  font-weight:700;
+}
 
+.leader p a{
+  color:#087da6;
+  text-decoration:none;
+}
 .leader span{
 font-size:12px
 }
