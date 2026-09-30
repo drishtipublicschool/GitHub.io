@@ -615,3 +615,65 @@ font-size:12px
   }
 
 }
+/* SCHOOL GALLERY */
+
+.gallery-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+max-width:1000px;
+margin:auto;
+}
+
+.gallery-item{
+background:#fff;
+border-radius:20px;
+padding:15px;
+box-shadow:0 10px 30px rgba(19,49,80,.10);
+overflow:hidden;
+text-align:center;
+}
+
+.gallery-item img{
+width:100%;
+height:330px;
+object-fit:cover;
+display:block;
+border-radius:14px;
+}
+
+.gallery-item h3{
+color:#163b60;
+font-size:1.35rem;
+margin:18px 0 8px;
+}
+
+.gallery-item p{
+color:#68788d;
+margin:0 10px 10px;
+font-size:1rem;
+}
+
+
+/* MOBILE */
+
+@media(max-width:560px){
+
+.gallery-grid{
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.gallery-item img{
+height:230px;
+}
+
+.gallery-item h3{
+font-size:1.2rem;
+}
+
+.gallery-item p{
+font-size:.95rem;
+}
+
+}
