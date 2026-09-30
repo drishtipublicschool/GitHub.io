@@ -542,3 +542,32 @@ font-size:12px
 }
 
 }
+/* MOBILE FIX */
+@media (max-width: 900px){
+
+  .about-grid,
+  .contact-grid,
+  .cards,
+  .form-grid,
+  .leader-grid,
+  .gallery-placeholder{
+    grid-template-columns: 1fr !important;
+  }
+
+  .gallery-placeholder{
+    display:flex !important;
+    flex-direction:column !important;
+    text-align:center;
+  }
+
+  .leader-grid{
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+  }
+
+  .contact-grid{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+  }
+
+}
