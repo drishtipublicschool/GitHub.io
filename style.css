@@ -571,3 +571,20 @@ font-size:12px
   }
 
 }
+@media (max-width: 900px){
+
+  .about-grid,
+  .cards,
+  .form-grid,
+  .gallery-placeholder,
+  .contact-grid{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+  }
+
+  .leader-grid{
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+  }
+
+}
